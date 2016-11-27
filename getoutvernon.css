@@ -1,0 +1,224 @@
+/* ------------------------- 
+KristinaCat Creations: Get Out Vernon
+October 27, 2016 
+Author: Kristina Hennessey 
+----------------------------*/
+
+ 
+
+body
+{ 
+   color: #373737; 
+   background: #4B6639;
+   font-family: tahoma, geneva, sans-serif; 
+   font-size: 1em; 
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   width: 960px; 
+   text-align: left; 
+   color: #373737; 
+   background: #e9e7da;
+} 
+
+/*--------------------------TABLE FORMATTING----------------------------------*/
+
+body
+{
+   font-size: 1em;
+   font-family: tahoma, geneva, sans-serif; 
+   color: #373737;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+table
+{
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+}
+
+th
+{
+   border-style: inset;
+   border-width: medium;
+   border-color: #373737;
+   padding: 10px;
+   text-align: center;
+}
+
+td
+{
+   border-style: inset;
+   border-width: thin;
+   border-color: #373737;
+   padding: 5px;
+   text-align: center;
+}
+
+/*------------------------------LINK FORMATTING-----------------------------*/ 
+
+ 
+a:link
+{ 
+   color: #265c00; 
+   background-color: transparent; 
+}
+
+a:visited
+{ 
+   color: #373737;
+   background-color: transparent;
+}
+
+a:hover
+{ 
+   color: #265c00;
+   background-color: transparent;
+   text-decoration: none; 
+}
+
+a:active
+{ 
+   color: #265c00; 
+   background-color: transparent; 
+}
+
+/*------------------------------BANNER FORMATTING---------------------------*/ 
+
+
+#header 
+{ 
+   color: #b3de81; 
+   background: #373737; 
+   padding: 2px; 
+   height: 1%;
+}
+
+#header h1 
+{ 
+   text-align: center; 
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   font-size: 2.5em;
+   font-style: italic;
+}
+
+
+.floatL 
+{
+  float: left; 
+  padding: 10px;
+  border: 0;
+}
+
+.floatR 
+{
+  float: right; 
+  padding: 10px;
+  border: 0;
+}
+
+
+/*------------------------------NAV BAR FORMATTING---------------------------*/ 
+
+ 
+
+#navcontainer 
+{ 
+   color: #265c00; 
+   background-color: #68a225;
+   margin: 0; 
+   padding: 5px 0;
+} 
+
+
+#navcontainer p 
+{ 
+   margin: 0; 
+   padding: 5px; 
+   text-align: center;
+} 
+
+
+#navcontainer p a 
+{ 
+   padding: 4px 10px; 
+   color: #fdffff; 
+   background-color: #68a225; 
+   font-size: 1em;
+}
+
+#navcontainer p a:hover 
+{ 
+   color: #265c00; 
+   background-color: #b3de81; 
+   text-decoration: none;
+   border: none;
+}
+
+#navcontainer p a#current 
+{ 
+   color: #fdffff;
+   background-color: transparent; 
+   text-decoration: none; 
+   padding: 3px 8px; 
+   border: 1px solid #fdffff;
+}
+
+/*------------------------------CONTENT FORMATTING---------------------------*/ 
+
+#content p 
+{ 
+   padding: 0px 10px;
+   line-height: 140%;
+}
+
+#content h2 
+{ 
+   text-align: center;
+   font-family: tahoma, geneva, sans-serif; 
+   font-size: 1.2em;
+   margin: 20px;
+   padding: 10px;
+}
+
+#content h3
+{
+   font-weight: bold;
+   font-size: 1.1em;
+   padding: 10px;
+}
+
+img.floatleft 
+{ 
+   float: left; 
+   margin: 0px 10px 0px 10px;
+   border: 2px solid #373737;
+}
+
+img.floatright
+{ 
+   float: right; 
+   margin: 40px 10px 0px 10px ;
+   border: 2px solid #373737;
+}
+
+
+/*------------------------------FOOTER STYLE----------------------------*/ 
+
+
+#footer 
+{
+   font-family: Georgia, "Times New Roman", Times, serif;
+   color: #fdffff;
+   background: #68a225; 
+   font-size: 1em;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px; 
+   height: 1%;
+}
