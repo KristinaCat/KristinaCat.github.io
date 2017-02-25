@@ -1,0 +1,235 @@
+/* ------------------------- 
+KristinaCat Creations: Cocktail Happy Hours
+January Feb 6, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+body
+{ 
+   color: #fff; 
+   background: #DBDBDB;
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 1em; 
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   width: 960px; 
+   text-align: left; 
+   color: #000; 
+   background: #fff;
+} 
+
+/*------------------------------GENERAL LINK FORMATTING-----------------------------*/ 
+
+a:link
+{ 
+   color: #903;   
+}
+
+a:visited
+{ 
+   color: #420F20;
+}
+
+a:hover
+{ 
+   color: #FF548D; 
+}
+
+a:active
+{ 
+   color: #420F20;
+}
+
+/*------------------------------BOTTOM LINK FORMATTING-----------------------------*/
+
+p.bottom a:link
+{ 
+   color: #fff;   
+}
+
+p.bottom a:visited
+{ 
+   color: #fff;
+}
+
+p.bottom a:hover
+{ 
+   color: #FFC6D9; 
+}
+
+p.bottom a:active
+{ 
+   color: #fff;
+}
+
+/*------------------------------IMAGE FORMATTING---------------------------*/
+
+.floatL 
+{
+  float: left;
+  padding: 0px;
+  border: 0;
+}
+
+.floatleft 
+{
+   height: auto;
+   float: left; 
+   margin: 5px 20px 10px 20px;
+   border: 2px solid #420F20;
+}
+
+.floatright 
+{
+   height: auto;
+   float: right; 
+   margin: 10px 30px 10px 1px;
+   border: 2px solid #420F20;
+}
+
+/*------------------------------BANNER FORMATTING---------------------------*/ 
+
+#header 
+{ 
+   color: #fcc; 
+   background: #903; 
+   padding: 5px 0px 25px 230px;
+   margin: 0 auto;
+   height: 20%;
+}
+
+#header h1 
+{ 
+   font-family: Papyrus, Copperplate, serif;
+   font-size: 4em;
+   margin: 0 auto;
+   padding: 25px 0px 0px 0px;
+   font-style: italic;
+   line-height: 110%;
+}
+
+/*------------------------------NAV BAR FORMATTING---------------------------*/ 
+
+#navcontainer 
+{
+   margin: 0 auto; 
+   color: #420F20;
+   background-color: #fcc;
+   padding: 5px 15px; 
+} 
+
+#navcontainer p 
+{ 
+   margin: 0 auto; 
+   padding: 4px; 
+   text-align: center;
+} 
+
+#navcontainer p a 
+{ 
+   padding: 5px 22px; 
+   color: #420F20;
+   background-color: transparent; 
+   font-size: 1em;
+   text-decoration: none;
+}
+
+#navcontainer p a:hover 
+{
+   color: #420F20;
+   background-color: #FEFFFC;    
+   text-decoration: none;
+   padding: 3px 20px; 
+   border: 2px ridge #420F20; 
+}
+
+#navcontainer p a#current 
+{ 
+   text-decoration: none;
+   background-color: #FEFFFC;
+   padding: 3px 12px; 
+   border: 2px ridge #420F20;
+}
+
+/*------------------------------CONTENT FORMATTING---------------------------*/ 
+
+#content p 
+{
+   color: #000;
+   margin: 20px 30px 10px 20px;
+   line-height: 115%;
+}
+
+#content h1
+{
+   font-family: georgia, "times new roman", serif;    
+   color: #903;
+   font-size: 1.4em;
+   font-style: italic;
+   margin: 10px;
+   padding: 10px;
+}
+
+#content h2 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #903;
+   text-align: center;
+   font-size: 1.3em;
+   font-style: italic;
+   margin: 0 auto;
+   padding: 1px;
+}
+
+#content h3 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #000;
+   font-size: 1em;
+   margin-left: 30px;
+   padding: 1px;
+}
+
+hr
+{
+   color: #AD9CA1;
+   background-color: #dab;
+   height: .5px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+/*------------------------------LIST STYLE----------------------------*/
+
+li
+{
+   margin-left: 50px;
+}
+
+ol
+{
+   list-style-type: decimal;
+}
+
+ul
+{
+   list-style-type: circle;
+}
+
+/*------------------------------FOOTER STYLE----------------------------*/ 
+
+#footer 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #fff; 
+   background: #903;
+   font-size: 1em;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px; 
+   height: 1%;
+}
