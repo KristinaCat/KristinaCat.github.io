@@ -60,9 +60,9 @@
 
 $mailto = 'kristinacatcreations@gmail.com' ;
 $subject = "PupPizza Order" ;
-$formurl = "https://kristinacat.github.io/dogpizza.htm" ;
-$thankyouurl = "kristinacat.github.io/thanks.htm" ;
-$errorurl = "kristinacat.github.io/error.htm" ;
+$formurl = "https://www.kristinacatcreations.ca/dogpizza.htm" ;
+$thankyouurl = "https://www.kristinacatcreations.ca/thanks.htm" ;
+$errorurl = "https://www.kristinacatcreations.ca/error.htm" ;
 $want_tel_field = 0;
 $want_addr_field = 0;
 
