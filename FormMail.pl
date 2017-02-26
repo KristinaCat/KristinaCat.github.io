@@ -43,7 +43,7 @@ BEGIN
   $allow_empty_ref   = 1;
   $max_recipients    = 5;
   $mailprog          = '/usr/lib/sendmail -oi -t';
-  $postmaster        = 'Kristinacatcreations@gmail.com';
+  $postmaster        = 'Kristinacatcreations.gmail.com';
   @referers          = qw(www.gmail.com);
   @allow_mail_to     = qw(kristinacatcreations@gmail.com);
   @recipients        = ();
@@ -52,7 +52,7 @@ BEGIN
   $locale            = '';
   $charset           = 'iso-8859-1';
   $date_fmt          = '%A, %B %d, %Y at %H:%M:%S';
-  $style             = '/css/nms.css';
+  $style             = '/dogpizza.css';
   $no_content        = 0;
   $double_spacing    = 1;
   $wrap_text         = 0;
