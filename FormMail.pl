@@ -43,8 +43,8 @@ BEGIN
   $allow_empty_ref   = 1;
   $max_recipients    = 5;
   $mailprog          = '/usr/lib/sendmail -oi -t';
-  $postmaster        = 'Kristinacatcreations.gmail.com';
-  @referers          = qw(www.gmail.com);
+  $postmaster        = '';
+  @referers          = qw(localhost);
   @allow_mail_to     = qw(kristinacatcreations@gmail.com);
   @recipients        = ();
   %recipient_alias   = ();
