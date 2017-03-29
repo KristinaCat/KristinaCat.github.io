@@ -1,0 +1,335 @@
+/* -----------------------------------------
+KristinaCat Web Designer Portfolio
+3-20-17
+Kristina Hennessey
+------------------------------------------- */
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #A09E9D;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 120%;
+}
+
+div.wrapper
+{
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background: #C9C9C9;
+}
+
+/*----------------------------------------------- IMAGE FORMATTING --------------------------------------------- */
+
+div.aside .floatleft
+{
+	border: 1px outset #8AA989; 
+	border-radius: 5px; 
+	box-shadow: 5px 5px 10px #707070;
+	margin: 10px 0 10px 10px;
+	float: left;
+	background-color: #C9C9C9;
+	text-align: center;
+	padding: 5px;
+}
+
+div.article .rightside
+{
+	border: 1px outset #878E87; 
+	border-radius: 5px; 
+	box-shadow: 5px 5px 10px #000;
+	margin: 5px 0 15px 10px;
+	float: left;
+	background-color: #EAE8E8;
+	text-align: center;
+	padding: 10px;
+}
+
+/*--------------------------------------------- BANNER FORMATTING --------------------------------------------- */
+
+div.header
+{
+	background: #1B1B26 url(images/heading.jpg) no-repeat center;
+	height: 220px; 
+	float: left;
+	width: 980px;
+	color: #fff;
+	margin: 0;
+}
+
+div.header h1
+{
+	font-family: georgia, "Book Antiqua", serif;
+	font-size: 2.6em;
+	padding-top: 15px;
+	text-align: center;
+	text-shadow: 1px 1px 20px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=1);     
+	color: #1A0926;
+	background: transparent;
+	line-height: 100%;
+}
+
+div.transparency
+{
+	width: 355px;
+	height: 120px;
+	margin: 80px 0 0 110px;
+	background: #797D89;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	-webkit-border-bottom-left-radius: 90px;
+	-webkit-border-bottom-right-radius: 90px;
+	-moz-border-radius-bottomleft: 90px;
+	-moz-border-radius-bottomright: 90px;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;	
+}
+
+/*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
+
+div.nav
+{
+	float: left;
+	width: 980px;
+	background: #251F30;
+	color: #fff;
+	border-top: 1px ridge #2E2E3F;
+	border-bottom: 1px ridge #1B1B26;
+}
+
+ul#menu
+{
+	float: left;
+	margin: 0;
+	padding: 0 50px;
+	background: #251F30;
+	color: #DEEBEF;
+	line-height: 100%;
+}
+
+ul#menu li
+{ 
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+/*------------------------- TOP LEVEL LINK------------------------------ */
+
+ul#menu a
+{
+	color: #DEEBEF;
+	background: #251F30;
+	text-decoration: none;
+	display: block;
+	padding: 8px 14px;
+	margin: 0;
+	border: 1px inset #858589;
+}
+
+/*---------------------- MAIN LEVEL LINK HOVER ------------------------ */
+
+ul#menu a.current, ul#menu li:hover > a
+{
+	color: #0E0E1C;
+	background: #A2A2AA;
+}
+
+/*--------------------------- DROPDOWN ------------------------------- */
+
+ul#menu li:hover > ul
+{
+	display: block; 
+	box-shadow: 5px 5px 10px #0E0E1C;
+	filter: dropshadow(color=#0E0E1C, offx=1, offy=1);     
+	background: transparent;
+}
+
+/*----------------------- SUB LEVEL LIST ----------------------------- */
+
+ul#menu ul
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	position: absolute;
+	top: 33px;
+	left: 0;
+	background: #3E3E47;
+	border: 1px inset #858589;
+}
+
+ul#menu ul li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu ul a
+{
+	font-weight: normal;
+	background: #0E0E1C;
+	color: #B6B6DB;
+}
+
+ul#menu ul li a:hover
+{
+	color: #fff;
+	background: #392C4F;
+}
+
+/*---------------------------------------- GENERAL LINK FORMATTING ---------------------------------------------- */
+
+a:link
+{
+	color: #4B0D7A;
+	background: transparent;
+	
+}
+
+a:visited
+{
+	color: #4B0D7A;
+	background: transparent;
+}
+
+a:hover
+{
+	color: #8E0C0C;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #8E0C0C;
+	background: transparent;
+}
+
+/*------------------------------------------------ ASIDE FORMATTING --------------------------------------------- */
+
+div.aside
+{
+	float: left;
+	width: 230px;
+	background: #C9C9C9;
+	font-size: .9em;
+	color: #0E0E1C;
+}
+
+div.aside h3
+{
+	margin-left: 20px;
+	margin-top: 40px;
+	text-align: center;
+	font-style: normal;
+	color: #8E0C0C;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.1em;
+}
+
+/*--------------------------------------------- SECTION FORMATTING ----------------------------------------------- */
+
+div.section
+{ 
+	float: right;
+	width: 700px;
+	background: #F7F7F7;
+	padding: 10px;
+}
+
+div.section h1
+{
+	text-align: center;
+	font-style: normal;
+	color: #8E0C0C;
+	text-shadow: 1px 1px 2px #680E1A;
+	filter: dropshadow(color=#D7ECEF, offx=1, offy=1);  
+	font-family: georgia, "Book Antiqua", serif;
+	font-size: 2.2em;
+	padding: 10px 0;
+	line-height: 110%;
+}
+
+div.section h2
+{
+	margin: 0 20px 10px 20px;
+	font-weight: normal;
+	color: #0B0B16;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/*---------------------------------------- ARTICLES LINK FORMATTING ---------------------------------------------- */
+
+div.article
+{
+	float: left;
+	width: 335px;
+	background: #F1F2E8;
+	color: #0B0B16;
+	margin: 0;
+	padding: 6px;
+}
+	
+div.article.secondary
+{
+	float: right;
+	width: 335px;
+}
+
+div.article h3
+{
+	margin-left: 10px;
+	font-style: normal;
+	color: #8E0C0C;
+	font-family: georgia, "Book Antiqua", serif;
+	font-size: 1.1em;
+}
+
+div.article h4
+{
+	margin-left: 5px;
+	font-style: normal;
+	color: #8E0C0C;
+	font-family: arial, helvetica, sans-serif;
+	font-size: .9em;
+}
+
+div.article p
+{
+	padding: 0 5px 2px 5px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1em;
+}
+
+div.article li
+{
+	list-style: circle;
+	margin-bottom: 1px;
+	padding: 4px;
+}
+
+/*---------------------------------------------- FOOTER FORMATTING ---------------------------------------------- */
+
+div.footer 
+{
+	clear: both;
+	background: #251F30;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	font-family: georgia, "Book Antiqua", serif;
+	font-size: .9em;
+}

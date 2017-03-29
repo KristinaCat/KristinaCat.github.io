@@ -1,0 +1,122 @@
+/* ------------------------- 
+KristinaCat Creations: Cocktail Happy Hours Print
+January Feb 10, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+body
+{ 
+   color: #000; 
+   background: #fff;
+   font-family: georgia, "times new roman", serif;
+   font-size: 13pt;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+a:link, a:visited, a:active
+{
+    text-decoration: underline;
+    color: #000;
+    background: #fff;
+}
+
+#footer a:link:after, a:visited:after
+{
+    content: " [" attr(href) "] ";
+    color: #000;
+    background: #fff;
+}
+
+img
+{
+    display: none;
+}   
+
+#header h1 
+{ 
+    font-size: 210%;
+    font-weight: normal;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#navcontainer 
+{
+   display: none;
+} 
+
+#content p 
+{
+   color: #000;
+   margin: 20px;
+   line-height: 125%;
+}
+
+#content h1
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #000;
+   font-size: 15pt;
+   font-style: italic;
+   margin: 5px;
+   padding: 2px;
+}
+
+#content h2 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #000;
+   text-align: center;
+   font-size: 14pt;
+   text-decoration: underline;
+   margin: 0 auto;
+   padding: 1px;
+}
+
+#content h3 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #000;
+   font-size: 13pt;
+   margin-left: 30px;
+   padding: 1px;
+}
+
+hr
+{
+   color: #000;
+   background-color: #fff;
+   border-style: dashed;
+   height: .8px;
+   width: 95%;
+   margin-top: 30px;
+   margin-bottom: 35px;
+}
+
+li
+{
+   margin-left: 50px;
+}
+
+ol
+{
+   list-style-type: decimal;
+}
+
+ul
+{
+   list-style-type: circle;
+}
+
+#footer 
+{
+   font-family: georgia, "times new roman", serif;    
+   color: #000; 
+   background: #fff;
+   font-size: 9pt;
+   margin: 0 auto;
+   text-align: center;
+}

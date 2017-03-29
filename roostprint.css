@@ -1,0 +1,98 @@
+/* ------------------------- 
+KristinaCat Creations: The Roost
+Feb 25, 2017
+Author: Kristina Hennessey
+----------------------------*/
+
+body
+{ 
+   color: #000; 
+   background: #fff;
+   font-family: "times new roman", serif;
+   font-size: 13pt;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+a:link, a:visited, a:active
+{
+    text-decoration: underline;
+    color: #000;
+    background: #fff;
+}
+
+img
+{
+    display: none;
+}   
+
+#header h1 
+{
+   text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#navcontainer 
+{
+   display: none;
+} 
+
+#sidebar
+{  
+   color: #000;
+   text-align: center;
+   font-size: 11pt;
+   margin: 0 auto;
+   padding: 2px;
+}
+
+#content p 
+{
+   color: #000;
+   margin: 30px;
+   line-height: 130%;
+}
+
+#content h2 
+{
+   font-family: "times new roman", serif;   
+   color: #000;
+   text-align: left;
+   font-size: 15pt;
+   text-decoration: underline;
+   margin: 20px 0 0 30px;
+   padding: 1px;
+}
+
+#content h3 
+{
+   font-family: "times new roman", serif;   
+   color: #000;
+   font-size: 13pt;
+   margin-left: 40px;
+   padding: 1px;
+}
+
+li
+{
+   margin-left: 20px;
+}
+
+ul
+{
+   list-style-type: disc;
+}
+
+#footer 
+{
+   font-family: "times new roman", serif;    
+   color: #000; 
+   background: #fff;
+   font-size: 9pt;
+   margin: 0 auto;
+   text-align: center;
+}

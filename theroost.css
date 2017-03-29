@@ -1,0 +1,257 @@
+/* ------------------------- 
+KristinaCat Creations: The Roost
+Feb 25, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+body
+{
+   color: #000;
+   background: #dfdbb6;
+   font-family: verdana, arial, geneva, sans-serif;
+   font-size: .9em;
+   margin: 0;
+   padding: 0;
+   text-align: center;   
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   width: 760px; 
+   text-align: left; 
+   color: #000; 
+   background: #fff;
+}
+
+/*---------------------------------- BANNER FORMATTING ------------------------------------ */
+
+#header
+{
+   margin: 0;
+   padding: 0;
+   color: #000;
+   background: transparent url("images/rooster.jpg") no-repeat;
+   height: 249px;
+   width: 758px;
+   border: 1px solid #0d0b0c;
+}
+
+#header h1
+{
+   margin: 0;
+   text-align: center;
+   padding-top: 65px;
+   padding-right: 280px;
+   color: #1B2238;
+   background: transparent;
+   font-family: perpetua, georgia, serif;
+   font-style: italic;
+   font-size: 4em;
+   line-height: 80%;
+}
+
+/*------------------------------- NAVIGATION AND SIDEBAR FORMATTING ---------------------------------- */
+
+#sidebar
+{
+   font-family: perpetua, georgia, serif;
+   width: 200px;
+   float: left;
+   color: #000; 
+   font-size: 1.5em;
+   background: #fff;
+   line-height: 120%;
+}
+
+#sidebar p
+{
+   margin-left: 15px; 
+   font-size: .9em;
+}
+
+#navcontainer ul
+{ 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#navcontainer li
+{ 
+   margin: 0;
+}
+
+#navcontainer a
+{
+   display: block;
+   color: #fff;
+   background: #1B2238; 
+   width: 180px;
+   padding: 8px; 
+   text-decoration: none;
+   border: 2px outset #0A0C3F;
+}
+
+#sidebar #navcontainer a#current
+{ 
+   color: #66D3FF;
+   background: #1B2238;
+   border: 2px inset #0A0C3F;
+}
+
+.impact
+{
+   font-size: .9em;
+   text-align: center;
+   font-weight: bold;
+   line-height: 100%;
+}
+
+/*------------------------------- NAV AND SIDEBAR LINK FORMATTING --------------------------------- */
+
+#sidebar #navcontainer a:link
+{
+   color: #fff;
+   background: #1B2238;
+}
+
+#sidebar #navcontainer a:visited
+{
+   color: #fff;
+   background: #1B2238;
+}
+
+#sidebar #navcontainer a:hover
+{
+   color: #66D3FF;
+   background: #1B2238;
+   text-decoration: underline;
+   border: 2px inset #0A0C3F;
+}
+
+#sidebar #navcontainer a:active
+{
+   color: #66D3FF;
+   background: #1B2238;
+   border: 2px inset #0A0C3F;
+}
+
+/*------------------------------- GENERAL LINK FORMATTING --------------------------------- */
+
+a:link
+{
+   color: #0D122B;
+   background: #fff;
+}
+
+a:visited
+{
+   color: #000;
+   background: #fff;
+}
+
+a:hover
+{
+   color: #003FFF;
+   background: #fff;
+   text-decoration: underline;
+}
+
+a:active
+{
+   color: #1B2238;
+   background: #fff;
+}
+
+/* ----------------------------- CONTENT FORMATTING -----------------------------------*/
+
+#content
+{
+   width: 540px;
+   float: right;
+}
+
+#content h2
+{
+   font-family: perpetua, georgia, serif;
+   font-style: italic;
+   text-align: left;
+   margin-top: 10px;
+   margin-left: 5px;
+   font-size: 2.3em;
+   color: #111626;
+}
+
+#content h3
+{
+   clear: left;
+   font-family: perpetua, georgia, serif;
+   font-style: italic;
+   text-align: center;
+   margin: 10px;
+   font-size: 1.8em;
+   color: #111626;
+} 
+
+#content p
+{
+   margin-top: 0;
+   padding: 0px 10px;
+}
+
+#content ul
+{ 
+   margin: 0;
+   padding: 10px;
+   list-style-type: disc;
+}
+
+#content li
+{ 
+   margin-left: 200px;
+}
+
+/* --------------------------------- IMAGE FORMATTING -----------------------------------*/
+
+.floatright
+{
+   float: right;
+   margin: 10px; 
+   border: 1px solid #000;
+}
+
+.floatleft
+{
+   float: left;
+   margin: 5px 30px 5px 10px; 
+   border: 1px solid #000;
+}
+
+.middle
+{
+   width: 100px;
+   margin: 50px 40px; 
+}
+
+/* --------------------------------- FOOTER FORMATTING -----------------------------------*/
+
+#footer
+{
+   font-size: .8em;
+   clear: both;
+   padding: 10px;
+   margin: 0;
+   color: #fff;
+   background: #1B2238;
+   border: 3px outset #0A0C3F;
+}  
+
+#footer p
+{
+   margin: 0;
+   padding: 0;
+   line-height: 130%;
+   text-align: center;
+}     

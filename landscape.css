@@ -1,0 +1,301 @@
+/* -----------------------------------
+BCIT: MDIA 3201
+LAWN Enforcement
+3-12-17
+Kristina Hennessey
+------------------------------------ */
+
+body
+{
+	margin: 0;
+  text-align: center;
+  color:  #10140B;
+	background: #E0DDB3;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1em;
+}  
+
+#wrapper
+{
+  margin: 0 auto;
+  width: 980px;
+  text-align: left;
+}
+
+/*---------------------------------- BANNER FORMATTING ------------------------------------ */
+
+#header
+{
+  background:#0F160D url(images/heading.jpg) no-repeat center;
+  height: 250px; 
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+#header div.transparency
+{
+  width: 630px;
+  height: 115px;
+  margin: 120px 0 0 320px;
+	padding-left: 10px;
+  background: #360;
+  opacity:0.9;
+  filter:alpha(opacity=90);
+  -webkit-border-bottom-left-radius: 90px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 90px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 90px;
+  border-top-left-radius: 5px;	
+}
+
+#header h1
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 2.9em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 10px 5px 5px #121613;
+  filter: dropshadow(color=#253628, offx=1, offy=1);     
+  padding-top: 20px;
+  margin: 0;
+  color: #E0DDB3;
+	background: transparent;
+}
+
+/*----------------------------------- SIDEBAR FORMATTING ----------------------------------- */
+
+#sidebar
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  float: right;
+  width: 250px;
+  margin: 0;
+  padding: 5px; 
+}
+
+#sidebar h3
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: normal;
+	text-align: center;
+  padding: 0;
+  font-size: 1em;
+  color: #360;
+	background: #fff;
+}
+
+#sidebar h4
+{
+  padding: 0;
+	margin-left: 10px;
+  font-size: .9em;
+  color: #2B4C09;
+	background: #fff;
+}
+
+#sidebar p
+{
+  padding: 2px;
+  color: #10140B;
+	background: #fff;
+	font-size: .8em;
+	line-height: 180%;
+}
+
+#sidebar p.pq
+{
+  border: 1px outset #D3E5A7; 
+  -moz-border-radius: 5px; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #10140B;
+	background: #E5F7BB;
+  text-align: center;
+  margin: 10px; 
+  padding: 15px; 
+  position: relative;
+}
+
+/*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
+
+#navcontainer
+{
+  float: left; 
+  margin:0;
+  padding:0;
+  width: 100%;
+  background: #0F160D;
+	color: #fff;
+}  
+
+#navcontainer ul
+{
+  margin: 0;
+  padding-left: 15px;
+  list-style-type: none;                           
+}
+
+#navcontainer ul li
+{ 
+  display: inline; 
+}
+
+#navcontainer ul li a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  float: left;
+	color: #fff;
+	background: #21201E;
+	font-weight: normal;
+	margin-right: 5px;
+	padding: 5px 25px;
+	text-decoration: none;
+	border-top: 2px solid #383631;
+	border-right: 2px solid #383631;
+	border-left: 2px solid #161411;
+	-webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 90px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 90px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 5px;	
+}
+
+#navcontainer a:hover, #navcontainer a#current
+{
+	color: #fff;
+	background: #360;
+	border-top: 2px solid #5B9125;
+	border-right: 2px solid #5B9125;
+	border-left: 2px solid #1F330B;
+}
+
+#contentwrap
+{ 
+  width: 980px;
+  float: left;
+  background: #fff;
+	color: #16140E;
+}
+
+/*------------------------------- LINK FORMATTING --------------------------------- */
+
+a:link
+{
+  color: #00560D;
+	background: transparent;
+	text-decoration: none;
+	
+}
+a:visited
+{
+  color: #00560D;
+	background: transparent;
+	text-decoration: none;
+}
+a:hover
+{
+  color: #08D627;
+	background: transparent;
+  
+}
+a:active
+{
+  color: #08D627;
+	background: transparent;
+}
+
+/* ----------------------------- CONTENT FORMATTING -----------------------------------*/
+
+#content
+{
+  float: left;
+  width: 718px;
+  margin: 5px 0;
+  padding: 0;
+  border-right: 2px groove #CDE0C7;
+}
+
+#content p
+{
+	clear: both;
+	padding: 0 40px; 
+	line-height: 130%; 
+}
+
+#content h2
+{
+	font-style: italic;
+  font-size: 1.4em;
+  padding: 5px 20px 0 20px;
+  color: #360;
+	background: transparent;
+}
+
+#content h3
+{
+	clear: both;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 5px 20px 0 25px;
+  color: #212B17;
+	background: transparent;
+}
+
+.impact
+{
+	font-style: italic;
+  color: #360;
+}
+
+/* --------------------------------- IMAGE FORMATTING -----------------------------------*/
+
+img
+{
+  margin: 0 auto;
+}
+
+img.floatleft
+{
+	border: 1px outset #8AA989; 
+  border-radius: 5px; 
+  box-shadow: 3px 10px 15px #253628;
+  margin: 5px 25px 25px 25px;
+  float: left; 
+}
+
+img.floatright
+{
+	border: 1px outset #8AA989; 
+  border-radius: 5px; 
+  box-shadow: 3px 10px 15px #253628;
+  float: right; 
+  margin: 5px 10px 25px 25px; 
+}
+
+
+/* --------------------------------- FOOTER FORMATTING -----------------------------------*/
+
+#footer
+{
+	font-size: .9em;
+  clear: both;
+  width: 980px;
+  float: left;
+	color: #fff;
+	background: #16140E;
+	text-align: center;
+}
+
+#footer p
+{
+  padding: 1px 0;
+}
