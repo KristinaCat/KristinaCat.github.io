@@ -9,7 +9,7 @@ html, body
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: #A09E9D;
+	background: #161515;
 	text-align: center;
 	font-family: arial, helvetica, sans-serif;
 	font-size: 1em;
@@ -22,7 +22,7 @@ div.wrapper
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
-	background: #C9C9C9;
+	background: #B7B2B2;
 }
 
 /*----------------------------------------------- IMAGE FORMATTING --------------------------------------------- */
@@ -34,7 +34,7 @@ div.aside .floatleft
 	box-shadow: 5px 5px 10px #707070;
 	margin: 10px 0 10px 10px;
 	float: left;
-	background-color: #C9C9C9;
+	background-color: #B7B2B2;
 	text-align: center;
 	padding: 5px;
 }
@@ -55,8 +55,8 @@ div.article .rightside
 
 div.header
 {
-	background: #1B1B26 url(images/heading.jpg) no-repeat center;
-	height: 220px; 
+	background: #1B1B26 url(portfoliohead.jpg) no-repeat center;
+	height: 250px; 
 	float: left;
 	width: 980px;
 	color: #fff;
@@ -76,34 +76,16 @@ div.header h1
 	line-height: 100%;
 }
 
-div.transparency
-{
-	width: 355px;
-	height: 120px;
-	margin: 80px 0 0 110px;
-	background: #797D89;
-	opacity:0.9;
-	filter:alpha(opacity=90);
-	-webkit-border-bottom-left-radius: 90px;
-	-webkit-border-bottom-right-radius: 90px;
-	-moz-border-radius-bottomleft: 90px;
-	-moz-border-radius-bottomright: 90px;
-	border-bottom-left-radius: 90px;
-	border-bottom-right-radius: 90px;
-	border-top-right-radius: 90px;
-	border-top-left-radius: 90px;	
-}
-
 /*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
 
 div.nav
 {
 	float: left;
 	width: 980px;
-	background: #251F30;
+	background: #253642;
 	color: #fff;
-	border-top: 1px ridge #2E2E3F;
-	border-bottom: 1px ridge #1B1B26;
+	border-top: 1px ridge #3D4A54;
+	border-bottom: 1px ridge #10171C;
 }
 
 ul#menu
@@ -111,7 +93,7 @@ ul#menu
 	float: left;
 	margin: 0;
 	padding: 0 50px;
-	background: #251F30;
+	background: #131B21;
 	color: #DEEBEF;
 	line-height: 100%;
 }
@@ -128,20 +110,20 @@ ul#menu li
 ul#menu a
 {
 	color: #DEEBEF;
-	background: #251F30;
+	background: #1A2B38;
 	text-decoration: none;
 	display: block;
 	padding: 8px 14px;
 	margin: 0;
-	border: 1px inset #858589;
+	border: 1px inset #1A242B;
 }
 
 /*---------------------- MAIN LEVEL LINK HOVER ------------------------ */
 
 ul#menu a.current, ul#menu li:hover > a
 {
-	color: #0E0E1C;
-	background: #A2A2AA;
+	color: #7799AF;
+	background: #072B44;
 }
 
 /*--------------------------- DROPDOWN ------------------------------- */
@@ -165,8 +147,8 @@ ul#menu ul
 	position: absolute;
 	top: 33px;
 	left: 0;
-	background: #3E3E47;
-	border: 1px inset #858589;
+	background: #072B44;
+	border: 1px inset #0099FF;
 }
 
 ul#menu ul li
@@ -179,14 +161,14 @@ ul#menu ul li
 ul#menu ul a
 {
 	font-weight: normal;
-	background: #0E0E1C;
+	background: #072B44;
 	color: #B6B6DB;
 }
 
 ul#menu ul li a:hover
 {
 	color: #fff;
-	background: #392C4F;
+	background: #447393;
 }
 
 /*---------------------------------------- GENERAL LINK FORMATTING ---------------------------------------------- */
@@ -253,8 +235,8 @@ div.section h1
 {
 	text-align: center;
 	font-style: normal;
-	color: #8E0C0C;
-	text-shadow: 1px 1px 2px #680E1A;
+	color: #2e151b;
+	text-shadow: 1px 1px 2px #2B0D11;
 	filter: dropshadow(color=#D7ECEF, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
 	font-size: 2.2em;
@@ -271,54 +253,22 @@ div.section h2
 	font-size: 1em;
 }
 
-/*---------------------------------------- ARTICLES LINK FORMATTING ---------------------------------------------- */
-
-div.article
-{
-	float: left;
-	width: 335px;
-	background: #F1F2E8;
-	color: #0B0B16;
-	margin: 0;
-	padding: 6px;
-}
-	
-div.article.secondary
-{
-	float: right;
-	width: 335px;
-}
-
-div.article h3
+div.section h3
 {
 	margin-left: 10px;
 	font-style: normal;
-	color: #8E0C0C;
+	color: #2e151b;
 	font-family: georgia, "Book Antiqua", serif;
 	font-size: 1.1em;
 }
 
-div.article h4
+div.section h4
 {
 	margin-left: 5px;
 	font-style: normal;
-	color: #8E0C0C;
+	color: #2e151b;
 	font-family: arial, helvetica, sans-serif;
 	font-size: .9em;
-}
-
-div.article p
-{
-	padding: 0 5px 2px 5px;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 1em;
-}
-
-div.article li
-{
-	list-style: circle;
-	margin-bottom: 1px;
-	padding: 4px;
 }
 
 /*---------------------------------------------- FOOTER FORMATTING ---------------------------------------------- */
@@ -326,7 +276,7 @@ div.article li
 div.footer 
 {
 	clear: both;
-	background: #251F30;
+	background: #2f4454;
 	color: #fff;
 	text-align: center;
 	padding: 5px 0;
