@@ -45,7 +45,6 @@ div.nav
 	width: 980px;
 	background: #0F343D;
 	color: #fff;
-
 	border-bottom: 1px ridge #0D3329;
 }
 
@@ -53,7 +52,7 @@ ul#menu
 {
 	float: left;
 	margin: 0 15px;
-	padding: 10px 230px;
+	padding: 10px 250px;
 	background: #0F343D;
 	color: #DEEBEF;
 	line-height: 100%;
