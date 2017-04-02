@@ -9,7 +9,7 @@ html, body
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: #B7B7B7;
+	background: #768480;
 	text-align: center;
 	font-family: "trebuchet MS", verdana, sans-serif;
 	font-size: 1em;
@@ -248,7 +248,7 @@ div.section
 { 
 	float: right;
 	width: 760px;
-	background: #768480;
+	background: #B7B7B7;
 	padding: 10px;
 }
 
