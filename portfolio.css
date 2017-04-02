@@ -9,9 +9,9 @@ html, body
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: #161515;
+	background: #B7B7B7;
 	text-align: center;
-	font-family: arial, helvetica, sans-serif;
+	font-family: "trebuchet MS", verdana, sans-serif;
 	font-size: 1em;
 	line-height: 120%;
 }
@@ -22,33 +22,7 @@ div.wrapper
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
-	background: #B7B2B2;
-}
-
-/*----------------------------------------------- IMAGE FORMATTING --------------------------------------------- */
-
-div.aside .floatleft
-{
-	border: 1px outset #8AA989; 
-	border-radius: 5px; 
-	box-shadow: 5px 5px 10px #707070;
-	margin: 10px 0 10px 10px;
-	float: left;
-	background-color: #B7B2B2;
-	text-align: center;
-	padding: 5px;
-}
-
-div.article .rightside
-{
-	border: 1px outset #878E87; 
-	border-radius: 5px; 
-	box-shadow: 5px 5px 10px #000;
-	margin: 5px 0 15px 10px;
-	float: left;
-	background-color: #EAE8E8;
-	text-align: center;
-	padding: 10px;
+	background: #5C7272;
 }
 
 /*--------------------------------------------- BANNER FORMATTING --------------------------------------------- */
@@ -63,37 +37,24 @@ div.header
 	margin: 0;
 }
 
-div.header h1
-{
-	font-family: georgia, "Book Antiqua", serif;
-	font-size: 2.6em;
-	padding-top: 15px;
-	text-align: center;
-	text-shadow: 1px 1px 20px #fff;
-	filter: dropshadow(color=#fff, offx=1, offy=1);     
-	color: #1A0926;
-	background: transparent;
-	line-height: 100%;
-}
-
 /*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
 
 div.nav
 {
 	float: left;
 	width: 980px;
-	background: #253642;
+	background: #0F343D;
 	color: #fff;
-	border-top: 1px ridge #3D4A54;
-	border-bottom: 1px ridge #10171C;
+
+	border-bottom: 1px ridge #0D3329;
 }
 
 ul#menu
 {
 	float: left;
-	margin: 0;
-	padding: 0 50px;
-	background: #131B21;
+	margin: 0 15px;
+	padding: 10px 230px;
+	background: #0F343D;
 	color: #DEEBEF;
 	line-height: 100%;
 }
@@ -110,20 +71,19 @@ ul#menu li
 ul#menu a
 {
 	color: #DEEBEF;
-	background: #1A2B38;
+	background: #115256;
 	text-decoration: none;
 	display: block;
-	padding: 8px 14px;
-	margin: 0;
-	border: 1px inset #1A242B;
+	padding: 4px 25px;
+	border: 1px outset #10797C;
 }
 
 /*---------------------- MAIN LEVEL LINK HOVER ------------------------ */
 
 ul#menu a.current, ul#menu li:hover > a
 {
-	color: #7799AF;
-	background: #072B44;
+	color: #081B23;
+	background: #459E90;
 }
 
 /*--------------------------- DROPDOWN ------------------------------- */
@@ -131,9 +91,9 @@ ul#menu a.current, ul#menu li:hover > a
 ul#menu li:hover > ul
 {
 	display: block; 
-	box-shadow: 5px 5px 10px #0E0E1C;
-	filter: dropshadow(color=#0E0E1C, offx=1, offy=1);     
-	background: transparent;
+	box-shadow: 5px 5px 10px #0D2028;
+	filter: dropshadow(color=#0D2028, offx=1, offy=1);     
+	background: #0F343D;
 }
 
 /*----------------------- SUB LEVEL LIST ----------------------------- */
@@ -143,12 +103,12 @@ ul#menu ul
 	display: none;
 	margin: 0;
 	padding: 0;
-	width: 160px;
+	width: 180px;
 	position: absolute;
-	top: 33px;
+	top: 27px;
 	left: 0;
-	background: #072B44;
-	border: 1px inset #0099FF;
+	background: #115256;
+	border: 1px inset #10797C;
 }
 
 ul#menu ul li
@@ -161,41 +121,41 @@ ul#menu ul li
 ul#menu ul a
 {
 	font-weight: normal;
-	background: #072B44;
-	color: #B6B6DB;
+	background: #115256;
+	color: #DEEBEF;
 }
 
 ul#menu ul li a:hover
 {
-	color: #fff;
-	background: #447393;
+	color: #08323F;
+	background: #188282;
 }
 
 /*---------------------------------------- GENERAL LINK FORMATTING ---------------------------------------------- */
 
 a:link
 {
-	color: #4B0D7A;
+	color: #889193;
 	background: transparent;
 	
 }
 
 a:visited
 {
-	color: #4B0D7A;
+	color: #D6FFE7;
 	background: transparent;
 }
 
 a:hover
 {
-	color: #8E0C0C;
+	color: #0484A0;
 	background: transparent;
 	text-decoration: none;
 }
 
 a:active
 {
-	color: #8E0C0C;
+	color: #D6FFE7;
 	background: transparent;
 }
 
@@ -204,21 +164,83 @@ a:active
 div.aside
 {
 	float: left;
-	width: 230px;
-	background: #C9C9C9;
+	width: 190px;
+	background: #5C7272;
 	font-size: .9em;
-	color: #0E0E1C;
+	color: #050D0F;
+	text-align: center;
 }
 
 div.aside h3
 {
-	margin-left: 20px;
-	margin-top: 40px;
 	text-align: center;
 	font-style: normal;
-	color: #8E0C0C;
+	color: #0E2D35;
+	text-shadow: 1px 1px 1px #D6F9F5;
+	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
+	font-family: georgia, "Book Antiqua", serif;
+	font-size: 1.4em;
+	padding: 5px 0;
+	line-height: 120%;
+}
+
+.yellow
+{
+	color: #E2E8A7;
+	font-family: "times new roman", serif;
+	font-size: 1.9em;
+}
+
+.red
+{
+	color: #FC7E7E;
+	font-family: papyrus, cursive, serif;
+	font-size: 1.7em;
+}
+
+.blue
+{
+	color: #C0BAFC;
 	font-family: arial, helvetica, sans-serif;
+	font-size: 1.3em;
+}
+
+
+.orange
+{
+	color: #F2C99D;
+	font-family: "trebuchet MS", verdana, sans-serif;
 	font-size: 1.1em;
+}
+
+
+.purple
+{
+	color: #D5A2F9;
+	font-family: papyrus, cursive, serif;
+	font-size: 1.7em;
+}
+
+
+.green
+{
+	color: #BEFFB7;
+	font-family: "trebuchet MS", verdana, sans-serif;
+	font-size: 1.4em;
+}
+
+.pink
+{
+	color: #F7CAEF;
+	font-family: "times new roman", serif;
+	font-size: 1.2em;
+}
+
+.white
+{
+	color: #FFFFFF;
+	font-family: "trebuchet MS", verdana, sans-serif;
+	font-size: 1.3em;
 }
 
 /*--------------------------------------------- SECTION FORMATTING ----------------------------------------------- */
@@ -226,8 +248,8 @@ div.aside h3
 div.section
 { 
 	float: right;
-	width: 700px;
-	background: #F7F7F7;
+	width: 760px;
+	background: #768480;
 	padding: 10px;
 }
 
@@ -235,48 +257,44 @@ div.section h1
 {
 	text-align: center;
 	font-style: normal;
-	color: #2e151b;
-	text-shadow: 1px 1px 2px #2B0D11;
-	filter: dropshadow(color=#D7ECEF, offx=1, offy=1);  
+	color: #092B35;
+	text-shadow: 1px 1px 1px #D6F9F5;
+	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
 	font-size: 2.2em;
-	padding: 10px 0;
-	line-height: 110%;
+	padding: 10px 50px 0 50px;
+	line-height: 120%;
 }
 
 div.section h2
 {
-	margin: 0 20px 10px 20px;
-	font-weight: normal;
-	color: #0B0B16;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 1em;
-}
-
-div.section h3
-{
-	margin-left: 10px;
+	text-align: center;
 	font-style: normal;
-	color: #2e151b;
+	color: #052F35;
+	text-shadow: 1px 1px 1px #D6F9F5;
+	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
-	font-size: 1.1em;
+	font-size: 1.4em;
+	padding: 5px 60px;
+	line-height: 120%;
 }
 
-div.section h4
+div.section p
 {
-	margin-left: 5px;
-	font-style: normal;
-	color: #2e151b;
-	font-family: arial, helvetica, sans-serif;
-	font-size: .9em;
+	color: #110B16;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.1em;
+	padding: 0 30px;
+	line-height: 120%;
 }
+
 
 /*---------------------------------------------- FOOTER FORMATTING ---------------------------------------------- */
 
 div.footer 
 {
 	clear: both;
-	background: #2f4454;
+	background: #0F343D;
 	color: #fff;
 	text-align: center;
 	padding: 5px 0;
