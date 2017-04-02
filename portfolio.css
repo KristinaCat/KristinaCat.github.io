@@ -257,8 +257,8 @@ div.section h1
 	text-align: center;
 	font-style: normal;
 	color: #092B35;
-	text-shadow: 1px 1px 1px #D6F9F5;
-	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
+	text-shadow: 1px 1px 1px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
 	font-size: 2.2em;
 	padding: 10px 50px 0 50px;
@@ -270,8 +270,8 @@ div.section h2
 	text-align: center;
 	font-style: normal;
 	color: #052F35;
-	text-shadow: 1px 1px 1px #D6F9F5;
-	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
+	text-shadow: 1px 1px 1px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
 	font-size: 1.4em;
 	padding: 5px 60px;
