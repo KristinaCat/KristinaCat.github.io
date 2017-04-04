@@ -54,7 +54,7 @@ ul#menu
 	margin: 0 15px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 260px;
+	padding-left: 265px;
 	background: #0F343D;
 	color: #DEEBEF;
 	line-height: 100%;
@@ -75,7 +75,7 @@ ul#menu a
 	background: #115256;
 	text-decoration: none;
 	display: block;
-	padding: 4px 20px;
+	padding: 4px 25px;
 	border: 1px outset #10797C;
 }
 
