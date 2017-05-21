@@ -1,0 +1,328 @@
+/* ------------------------- 
+KristinaCat Creations: Adventures in Photoshop
+Image Mapping
+May 2, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #7F7C69;
+	text-align: center;
+	font-family: trebuchet, helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 130%;
+}
+
+div.wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background: #D6D5A7;
+}
+
+.note
+{
+	font-size: 95%;
+	line-height: 120%;
+}
+
+.note p
+{
+	margin: 1px 0;
+}
+
+.note h2
+{
+	margin: 30px 0 20px 0;
+}
+
+/*----------------------------------------------- IMAGE FORMATTING --------------------------------------------- */
+
+.floatright
+{
+	border: 1px solid #a08459; 
+	float: right;
+	padding: 0;
+	margin: 0 20px 10px 0;
+}
+
+/*--------------------------------------------- BANNER FORMATTING --------------------------------------------- */
+
+div.header
+{
+	background: #a08459 url(images/header.jpg) no-repeat center;
+	height: 200px; 
+	float: left;
+	width: 960px;
+	color: #fff;
+	margin: 0;
+}
+
+div.header h1
+{
+	font-family: georgia, "times new roman", serif;
+	font-size: 4.9em;
+	margin-left: 20px;
+	text-align: center;    
+	color: #443B2D;
+	background: transparent;
+}
+
+.impact
+{
+	font-size: 130%;
+	font-style: italic;
+	font-family: georgia, "times new roman", serif;
+}
+
+/*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
+
+div.nav
+{
+	float: left;
+	width: 960px;
+	background: #72624A;
+	color: #B7AB82;
+	border-top: 1px solid #665743;
+	border-bottom: 1px solid #4F4230;
+}
+
+ul#menu
+{
+	float: left;
+	margin: 0;
+	padding: 2px 10px;
+	background: #72624A;
+	color: #B7AB82;
+	line-height: 100%;
+}
+
+ul#menu li
+{ 
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+/*------------------------- TOP LEVEL LINK------------------------------ */
+
+ul#menu a
+{
+	background: #72624A;
+	color: #EAE2C9;
+	text-decoration: none;
+	display: block;
+	padding: 6px;
+	margin: 0;
+	border: 1px inset #7F6C4F;
+}
+
+/*---------------------- MAIN LEVEL LINK HOVER ------------------------ */
+
+ul#menu a.current, ul#menu li:hover > a
+{
+	color: #443B2D;
+	background: #B7AB82;
+}
+
+/*--------------------------- DROPDOWN ------------------------------- */
+
+ul#menu li:hover > ul
+{
+	display: block;   
+	background: transparent;
+}
+
+/*----------------------- SUB LEVEL LIST ----------------------------- */
+
+ul#menu ul
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+   font-weight: bold; 
+	background: #EAE2C9;
+	border: 1px inset #B79D77;
+}
+
+ul#menu ul li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu ul a
+{
+	font-weight: normal;
+	background: #B7AB82;
+	color: #443B2D;
+}
+
+ul#menu ul li a:hover
+{
+	color: #EAE2C9;
+	background: #72624A;
+}
+
+/*---------------------------------------- GENERAL LINK FORMATTING ---------------------------------------------- */
+
+a:link
+{
+	color: #332716;
+	background: transparent;
+	
+}
+
+a:visited
+{
+	color: #000000;
+	background: transparent;
+}
+
+a:hover
+{
+	color: #1F01A3;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #2B241A;
+	background: transparent;
+}
+
+/*------------------------------------------------ ASIDE FORMATTING --------------------------------------------- */
+
+div.aside
+{
+	float: left;
+	width: 220px;
+	background: #D6D5A7;
+	color: #1E1912;
+	padding: 5px;
+}
+
+div.aside p
+{
+	font-size: .9em;
+	line-height: 150%;
+	padding: 5px;
+}
+
+div.aside h3
+{
+	margin-top: 40px;
+	text-align: center;
+	color: #2E2630;
+	font-family: georgia, "times new roman", serif;
+	font-size: 1.3em;
+	line-height: 100%;
+
+}
+
+/*--------------------------------------------- SECTION FORMATTING ----------------------------------------------- */
+
+div.section
+{ 
+	float: right;
+	width: 710px;
+	background: #F1F2E8;
+	padding: 10px;
+}
+
+div.section p
+{ 
+	padding: 10px;
+}
+
+div.section h1
+{
+	text-align: center;
+	color: #38253D; 
+	font-family: georgia, "times new roman", serif;
+	font-size: 1.9em;
+	margin: 20px;
+	line-height: 110%;
+}
+
+div.section h2
+{
+	color: #38253D;
+	font-family: georgia, "times new roman", serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+div.section li
+{
+	list-style: circle;
+	padding: 4px;
+}
+
+hr
+{
+   clear: both;
+   color: #F7F2E3;
+   background-color: #C6C3B8;
+   height: 1px;
+   width: 95%;
+}
+
+/*---------------------------------------- ARTICLES LINK FORMATTING ---------------------------------------------- */
+
+div.article
+{
+	float: left;
+	width: 350px;
+	background: #F1F2E8;
+	color: #0B0B16;
+	margin: 0;
+	padding: 5px;
+}
+	
+div.article.secondary
+{
+	float: right;
+	width: 310px;
+}
+
+div.article h3
+{
+	color: #38253D;
+	font-family: georgia, "times new roman", serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div.article p
+{
+	padding: 0 5px 2px 5px;
+	font-family: trebuchet, helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/*---------------------------------------------- FOOTER FORMATTING ---------------------------------------------- */
+
+div.footer 
+{
+	clear: both;
+	background: #B7AB82;
+	color: #332A1E;
+	text-align: center;
+	padding: 5px 0;
+	font-family: georgia, "times new roman", serif;
+	font-size: .9em;
+}
