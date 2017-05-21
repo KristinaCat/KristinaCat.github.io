@@ -57,7 +57,7 @@ div.wrapper
 
 div.header
 {
-	background: #a08459 url(images/header.jpg) no-repeat center;
+	background: #a08459 url(header.jpg) no-repeat center;
 	height: 200px; 
 	float: left;
 	width: 960px;
