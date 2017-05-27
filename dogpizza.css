@@ -51,12 +51,12 @@ a:active
 
 #header 
 { 
-   color: #FFF432; 
+   margin: 0;
+   padding: 0;
+   color: #000;
    background: transparent url("pupizzaheader.gif") no-repeat;
-   padding: 10px;
-   margin: 0 auto;
-   height: 10%;
-   border: 6px outset #7C0200; 
+   height: 120px;
+   width: 960px;
 }
 
 #header h1 
