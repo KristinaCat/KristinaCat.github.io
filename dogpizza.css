@@ -52,7 +52,7 @@ a:active
 #header 
 { 
    color: #FFF432; 
-   background: #b11c17; 
+   background: transparent url("pupizzaheader.gif") no-repeat;
    padding: 10px;
    margin: 0 auto;
    height: 10%;
