@@ -29,8 +29,8 @@ div.wrapper
 
 div.header
 {
-	background: #1B1B26 url(portfoliohead.jpg) no-repeat center;
-	height: 250px; 
+	background: #1B1B26 url(banner.jpg) no-repeat center;
+	height: 200px; 
 	float: left;
 	width: 980px;
 	color: #fff;
