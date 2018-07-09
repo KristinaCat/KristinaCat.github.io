@@ -1,0 +1,137 @@
+/* ------------------------- 
+KristinaCat Creations
+Adventures in Photoshop: Images Retouched
+June 1, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+body
+{ 
+   color: #fff; 
+   background: #707070;
+   font-family: tahoma, "trebuchet MS", arial, sans-serif;
+   font-size: 1em; 
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   width: 960px; 
+   text-align: left; 
+   color: #000; 
+   background: #EDECE3;
+}
+
+
+/*------------------------------IMAGE FORMATTING---------------------------*/
+
+.float
+{
+   display: block;
+   margin: auto;
+   border: none;
+}
+
+/*------------------------------BANNER FORMATTING---------------------------*/ 
+
+#header
+{
+	background: #999 url(images/retouchedhead.gif) no-repeat center;
+	height: 250px; 
+	float: left;
+	width: 960px;
+   margin-bottom: 20px;
+
+}
+
+/*------------------------------CONTENT FORMATTING---------------------------*/ 
+
+
+#content p 
+{
+   color: #000;
+   line-height: 125%;
+   padding: 2px 10px;
+}
+
+#content h1
+{
+   font-family: georgia, "times new roman", serif;    
+   color: #121828;
+   font-size: 1.4em;
+   margin-left: 40px;
+}
+
+#content h2
+{
+   font-family: georgia, "times new roman", serif;    
+   color: #121828;
+   font-size: 1.3em;
+   text-align: center;
+}
+
+/*------------------------------TABLE STYLE----------------------------*/
+
+table
+{
+   font-family: tahoma, "trebuchet MS", arial, sans-serif;
+   font-size: .9em;
+   width: 950px;
+   margin: auto;
+} 
+
+th
+{
+   border-style: ridge;
+   border-width: 2px;
+   border-color: #121828;
+   padding: 10px 50px;
+   background-color: #A5A4A0;
+   color: #121828;
+   text-align: center;
+}
+
+td
+{
+   border-style: inset;
+   border-width: 1px;
+   border-color: #121828;
+   padding: 5px;
+} 
+
+/*------------------------------LINK FORMATTING-----------------------------*/ 
+
+a:link
+{ 
+   color: #211630;  
+}
+
+a:visited
+{ 
+   color: #000000;
+}
+
+a:hover
+{ 
+   color: #34527F;
+}
+
+a:active
+{ 
+   color: #1E234F;
+}
+
+/*------------------------------FOOTER STYLE----------------------------*/ 
+
+#footer 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #121828;
+   background: #9E9E9E;
+   font-size: 1em;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px; 
+   height: 1%;
+}
