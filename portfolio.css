@@ -9,7 +9,7 @@ html, body
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: transparent url("backdrop.jpg") repeat;
+	background: url("backdrop.jpg") repeat;
 	text-align: center;
 	font-family: "trebuchet MS", verdana, sans-serif;
 	font-size: 1em;
@@ -160,97 +160,13 @@ a:active
 	background: transparent;
 }
 
-/*------------------------------------------------ ASIDE FORMATTING --------------------------------------------- */
-
-div.aside
-{
-	float: left;
-	width: 190px;
-	background: #5C7272;
-	font-size: .9em;
-	color: #050D0F;
-	text-align: center;
-}
-
-div.aside h3
-{
-	text-align: center;
-	font-style: normal;
-	color: #0E2D35;
-	text-shadow: 1px 1px 1px #D6F9F5;
-	filter: dropshadow(color=#2B0D11, offx=1, offy=1);  
-	font-family: georgia, "Book Antiqua", serif;
-	font-size: 1.4em;
-	padding: 5px 0;
-	line-height: 120%;
-}
-
-.yellow
-{
-	color: #E2E8A7;
-	font-family: "times new roman", serif;
-	font-size: 1.9em;
-}
-
-.red
-{
-	color: #FC7E7E;
-	font-family: papyrus, cursive, serif;
-	font-size: 1.7em;
-}
-
-.blue
-{
-	color: #C0BAFC;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 1.3em;
-}
-
-
-.orange
-{
-	color: #F2C99D;
-	font-family: "trebuchet MS", verdana, sans-serif;
-	font-size: 1.1em;
-}
-
-
-.purple
-{
-	color: #D5A2F9;
-	font-family: papyrus, cursive, serif;
-	font-size: 1.7em;
-}
-
-
-.green
-{
-	color: #BEFFB7;
-	font-family: "trebuchet MS", verdana, sans-serif;
-	font-size: 1.4em;
-}
-
-.pink
-{
-	color: #F7CAEF;
-	font-family: "times new roman", serif;
-	font-size: 1.2em;
-}
-
-.white
-{
-	color: #FFFFFF;
-	font-family: "trebuchet MS", verdana, sans-serif;
-	font-size: 1.3em;
-}
-
-/*--------------------------------------------- SECTION FORMATTING ----------------------------------------------- */
+/*---------------------------------------------- SECTION FORMATTING ---------------------------------------------- */
 
 div.section
 { 
 	float: right;
-	width: 760px;
-	background: #B7B7B7;
+	width: 980px;
+	background: transparent;
 	padding: 10px;
 }
 
