@@ -1,0 +1,156 @@
+/* ------------------------- 
+KristinaCat Creations: Adventures in Photoshop
+Basic Image Manipulation
+April 20, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+body
+{ 
+   color: #fff; 
+   background: #EFEFEF;
+   font-family: Helvetica, arial, sans-serif;
+   font-size: 1em; 
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   padding: 0;
+   width: 960px; 
+   text-align: left; 
+   color: #000; 
+   background: #fff;
+} 
+
+
+/*------------------------------IMAGE FORMATTING---------------------------*/
+
+.floatleft 
+{
+   height: auto;
+   float: left; 
+   margin: 5px 40px 40px 10px;
+}
+
+/*------------------------------BANNER FORMATTING---------------------------*/ 
+
+#header
+{
+	background: #939090 url(psheader.jpg) no-repeat center;
+	height: 212px; 
+	float: left;
+	width: 956px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+   border: 2px #939090 solid;
+   line-height: 80%;
+}
+
+
+#header h1 
+{ 
+   font-family: arial, helvetica, sans-serif;
+   font-size: 3em;
+   margin-top: 100px;
+   margin-left: 100px;
+   text-align: left;
+}
+
+#header h2
+{ 
+   font-family: "times new roman", georgia, serif;
+   font-size: 1.9em;
+   margin-right: 100px;
+   font-style: italic;
+   text-align: right;
+}
+
+/*------------------------------CONTENT FORMATTING---------------------------*/ 
+
+#content p 
+{
+   color: #000;
+   margin: 20px 40px;
+   line-height: 130%;
+}
+
+#content h1
+{
+   font-family: georgia, "times new roman", serif;    
+   color: #DB3518;
+   font-size: 1.5em;
+   margin-left: 20px;
+   margin-top: 40px;
+   padding: 10px;
+}
+
+#content h2 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #DB3518;
+   font-size: 1.3em;
+   font-style: italic;
+   margin-left: 50px;
+}
+
+hr
+{
+   color: #EAE3E3;
+   background-color: #D9D9E0;
+   height: .5px;
+   width: 90%;
+   margin-top: 45px;
+}
+
+/*------------------------------LIST STYLE----------------------------*/
+
+li
+{
+   line-height: 160%;
+   padding-left: 4px;
+   margin-right: 40px;
+   margin-left: 280px;
+}
+
+ul
+{
+   list-style-type: circle;
+}
+
+/*------------------------------FOOTER STYLE----------------------------*/ 
+
+#footer 
+{
+   font-family: georgia, "times new roman", serif;   
+   color: #060A0B;
+   background: #A5A4A0;
+   font-size: 1em;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px; 
+   height: 1%;
+}
+
+/*------------------------------FOOTER LINK FORMATTING-----------------------------*/ 
+
+a:link
+{ 
+   color: #13002D;  
+}
+
+a:visited
+{ 
+   color: #000000;
+}
+
+a:hover
+{ 
+   color: #DB3518;
+}
+
+a:active
+{ 
+   color: #0C113A;
+}
