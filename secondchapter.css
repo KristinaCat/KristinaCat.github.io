@@ -1,0 +1,282 @@
+/* ------------------------- 
+KristinaCat Creations: Second Chapter Books
+Sept 29, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+
+body
+{
+   color: #000;
+   background: #d8eec5;
+   font-family: arial, geneva, sans-serif;
+   font-size: .9em;
+   margin: 0;
+   padding: 0;
+   text-align: center;   
+}
+
+#wrapper 
+{ 
+   margin: 0 auto;
+   width: 960px; 
+   text-align: left; 
+   color: #000; 
+   background: #fff;
+}
+
+/*---------------------------------- BANNER FORMATTING ------------------------------------ */
+
+#header
+{
+   margin: 0;
+   padding: 0;
+   color: #000;
+   background: transparent url("scbheading.jpg") no-repeat;
+   height: 260px;
+   width: 960px;
+   border-bottom: 5px solid #25251e;
+   border-top: 5px solid #25251e;
+}
+
+/*------------------------------- NAVIGATION AND SIDEBAR FORMATTING ---------------------------------- */
+
+#sidebar
+{
+   font-family: arial, geneva, sans-serif;
+   width: 200px;
+   float: left;
+   color: #000; 
+   font-size: 1em;
+   background: #fff;
+   line-height: 120%;
+}
+
+#sidebar h3
+{
+   font-family: perpetua, georgia, serif;
+   text-align: center;
+   font-style: italic;
+   text-decoration: underline;
+   margin: 30px 3px 5px 3px;
+   font-size: 1.4em;
+}
+
+
+#sidebar p
+{
+   font-size: .9em;
+   line-height: 130%;
+}
+
+#navcontainer ul
+{ 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+#navcontainer li
+{ 
+   margin: 0;
+}
+
+#navcontainer a
+{
+   display: block;
+   color: #fff;
+   background: #8C8C6B; 
+   width: 188px;
+   padding: 8px; 
+   text-decoration: none;
+   border: 1px outset #25251e;
+}
+
+#sidebar #navcontainer a#current
+{ 
+   color: #25251e;
+   background: #C2D1A5;
+   border: 1px inset #25251e;
+}
+
+.info
+{
+   margin-top: 20px;
+   font-size: .9em;
+   text-align: center;
+   line-height: 105%;
+}
+
+/*------------------------------- NAV AND SIDEBAR LINK FORMATTING --------------------------------- */
+
+#sidebar #navcontainer a:link
+{
+   color: #F2FFE0;
+   background: #49493B;
+}
+
+#sidebar #navcontainer a:visited
+{
+   color: #F2FFE0;
+   background: #49493B;
+}
+
+#sidebar #navcontainer a:hover
+{
+   color: #25251e;
+   background: #C2D1A5;
+   text-decoration: underline;
+   border: 1px inset #25251e;
+}
+
+#sidebar #navcontainer a:active
+{
+   color: #25251e;
+   background: #C2D1A5;
+   border: 1px inset #25251e;
+}
+
+/*------------------------------- GENERAL LINK FORMATTING --------------------------------- */
+
+a:link
+{
+   color: #112B19;
+   background: #fff;
+}
+
+a:visited
+{
+   color: #071E0E;
+   background: #fff;
+}
+
+a:hover
+{
+   color: #10932C;
+   background: #fff;
+   text-decoration: underline;
+}
+
+a:active
+{
+   color: #112B19;
+   background: #fff;
+}
+
+/* ----------------------------- CONTENT FORMATTING -----------------------------------*/
+
+#content
+{
+   width: 760px;
+   float: right;
+}
+
+#content h2
+{
+   font-family: perpetua, georgia, serif;
+   text-align: left;
+   margin-top: 20px;
+   margin-left: 50px;
+   font-size: 1.8em;
+   color: #112B19;
+}
+
+#content p
+{
+   padding: 5px 30px;
+}
+
+/* --------------------------------- TABLE FORMATTING -----------------------------------*/
+
+table
+{
+   font-family: arial, geneva, sans-serif;
+   width: 720px; 
+   margin: 0 auto;
+}
+
+th
+{
+   font-family: perpetua, georgia, serif;
+   font-size: 1.4em;
+   font-weight: normal;
+   text-align: center;
+}
+
+th.col1
+{
+   width: 180px;
+}
+
+td
+{
+   font-size: 1em;
+   padding: 10px;
+}
+
+td.col1
+{
+   text-align: center;
+}
+
+tr:nth-child(odd)
+{
+   background-color: #d8eec5;
+}
+
+tr:nth-child(even)
+{
+   background-color: #fff;
+}
+
+/* --------------------------------- SIDE TABLE FORMATTING -----------------------------------*/
+
+table.side
+{
+   width: 196px; 
+   margin: 0 3px;
+   border: 2px solid #d8eec5;
+}
+
+tr.feat
+{
+   font-family: perpetua, georgia, serif;
+   font-size: 1em;
+   line-height: 120%;
+   background-color: transparent;
+   text-align: center;
+}
+
+table.side a
+{
+   font-size: 1.1em;
+   background-color: transparent;
+}
+
+/* --------------------------------- IMAGE FORMATTING -----------------------------------*/
+
+p.float
+{
+   text-align: center;
+   margin: 10px 0 0 0; 
+}
+
+/* --------------------------------- FOOTER FORMATTING -----------------------------------*/
+
+#footer
+{
+   font-size: .9em;
+   clear: both;
+   padding: 15px;
+   margin: 0;
+   color: #C2D1A5;
+   background: #25251e;
+}  
+
+#footer p
+{
+   margin: 0;
+   padding: 0;
+   line-height: 130%;
+   text-align: center;
+}     
