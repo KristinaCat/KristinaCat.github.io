@@ -1,0 +1,242 @@
+/* ------------------------- 
+KristinaCat Creations: Javascript
+'Georgio'
+Sept 13, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+body
+{
+	margin: 0;
+	text-align: center;
+	color: #041318;
+	background: #314649;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: .9em;
+}  
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+
+/*---------------------------------- BANNER FORMATTING ------------------------------------ */
+
+#header
+{
+	background:#000 url(georgioheader.jpg) no-repeat center;
+	height: 250px; 
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+/*----------------------------------- SIDEBAR FORMATTING ----------------------------------- */
+
+#sidebar
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	float: right;
+	width: 230px;
+	margin: 0;
+	padding: 10px 5px;
+	background: #D5DAE5;
+	color: #0A3844;
+
+}
+
+#sidebar h3
+{
+	font-size: 1em;
+	padding: 10px 0;
+	text-align: center;
+	color: #0A3844;
+	background: transparent;
+}
+
+#sidebar p
+{
+	padding: 2px;
+	font-size: .9em;
+	line-height: 160%;
+}
+
+#sidebar .pq
+{
+	color: #031519;
+	background: #EDEDED;
+	text-align: center;
+	margin: 10px; 
+	padding: 20px; 
+	position: relative;
+}
+
+/*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
+
+#navcontainer
+{
+	float: left; 
+	margin: 0;
+	padding: 2px 0;
+	width: 100%;
+	background: #031519;
+	color: #fff;
+}  
+
+#navcontainer ul
+{
+	margin: 0;
+	padding-left: 80px;
+	list-style-type: none;                           
+}
+
+#navcontainer ul li
+{ 
+	display: inline; 
+}
+
+#navcontainer ul li a
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	float: left;
+	color: #D2D6B8;
+	background: #072B33;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-right: 8px;
+	padding: 0 20px;
+	text-decoration: none;
+	border: 2px outset #041C23;
+}
+
+#navcontainer a:hover, #navcontainer a#current
+{
+	color: #E9EFC9;
+	background: #384C4F;
+	border: 2px inset #041C23;
+}
+
+#contentwrap
+{ 
+	width: 960px;
+	float: left;
+	background: #EDEDED;
+	color: #041C23;
+}
+
+/*------------------------------- LINK FORMATTING --------------------------------- */
+
+a:link
+{
+	color: #1F6E7C;
+	background: transparent;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #035E72;
+	background: transparent;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #121566;
+	background: transparent; 
+}
+a:active
+{
+	color: #004F63;
+	background: transparent;
+}
+
+/* ----------------------------- CONTENT FORMATTING -----------------------------------*/
+
+#content
+{
+	float: left;
+	width: 710px;
+	margin: 0;
+	padding: 20px 5px 10px 5px;
+}
+
+#content p
+{
+	clear: both;
+	padding: 0 10px; 
+	line-height: 130%; 
+}
+
+.impact
+{
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 10px 0 5px 230px;
+	color: #0C303A;
+	background: transparent;
+}
+
+#content h2
+{
+	clear: both;
+	font-style: italic;
+	font-size: 1.3em;
+	padding: 10px 30px 0 40px;
+	color: #0C303A;
+	background: transparent;
+}
+
+#content h4
+{
+	clear: both;
+	font-size: 1.1em;
+	margin: 10px 0 10px 270px;
+	color: #0B4E60;
+	background: transparent;
+}
+
+/* --------------------------------- LIST STYLE-----------------------------------*/
+
+#content li
+{
+   margin-left: 220px;
+}
+
+#content ul
+{
+   margin: 0 0 40px 0;
+}
+/* --------------------------------- IMAGE FORMATTING -----------------------------------*/
+
+
+img.floatleft
+{
+	border: 1px outset #8AA7A8; 
+	border-radius: 5px; 
+	box-shadow: 1px 2px 10px #687C7A;
+	margin: 0 25px 20px 30px;
+	float: left; 
+}
+
+img.float
+{
+	margin: 0 0 10px 0;
+	float: left; 
+}
+
+/* --------------------------------- FOOTER FORMATTING -----------------------------------*/
+
+#footer
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: .9em;
+	clear: both;
+	width: 960px;
+	float: left;
+	color: #D2D6B8;
+	background: #031519;
+	text-align: center;
+	line-height: 110%;
+}
