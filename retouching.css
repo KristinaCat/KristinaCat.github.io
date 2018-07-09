@@ -37,7 +37,7 @@ body
 
 #header
 {
-	background: #999 url(images/retouchedhead.gif) no-repeat center;
+	background: #999 url(retouchedhead.gif) no-repeat center;
 	height: 250px; 
 	float: left;
 	width: 960px;
