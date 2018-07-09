@@ -1,0 +1,136 @@
+/* ------------------------- 
+KristinaCat Creations: Adventures in Photoshop
+Painting Tools
+'Almost Africa'
+May 29, 2017
+Author: Kristina Hennessey 
+----------------------------*/
+
+body
+{
+	margin: 0;
+	background: #E0D9AC;
+	text-align: center;
+	color: #000;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}  
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 960px; 
+	text-align: left;  
+	background: #fff;
+}
+
+/*---------------------------------- BANNER FORMATTING ------------------------------------ */
+
+#header
+{
+	background:#000 url(africahead.png) no-repeat center;
+	height: 250px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+/*----------------------------------- NAVIGATION FORMATTING ----------------------------------- */
+
+#navcontainer ul 
+{
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#navcontainer li 
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}  
+
+#contentwrap
+{ 
+	
+	float: left;
+	background: #fff;
+	color: #000000;
+}
+
+/*----------------------------------- LINK FORMATTING ------------------------------------- */
+
+#content a:link
+{
+	color: #D84100;
+	background: transparent;
+}
+#content a:visited
+{
+	color: #773201;
+	background: transparent;
+}
+#content a:hover
+{
+	color: #F97E18;
+	background: transparent;
+	text-decoration: none;
+}
+#content a:active
+{
+	color: #AD6518;
+	background: transparent;
+}
+
+/* ----------------------------- CONTENT FORMATTING -----------------------------------*/
+
+#content
+{
+	float: left;
+	width: 960px;
+}
+
+#content p
+{
+	padding: 0 35px; 
+	line-height: 150%; 
+}
+
+#content h1
+{
+	font-family: copperplate, "Copperplate Gothic", sans-serif;
+	text-align: center;
+	font-size: 2em;
+	padding: 15px 0 15px 25px;
+	color: #2D2011;
+}
+
+/* --------------------------------- IMAGE FORMATTING -----------------------------------*/
+
+img.floatright
+{
+	border: 1px ridge #E5DFD0; 
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: -4px 15px 10px #211E1C;
+	margin: 0 0 25px 25px;
+	padding: 7px 7px 15px 7px;
+	float: right; 
+}
+
+/* --------------------------------- FOOTER FORMATTING -----------------------------------*/
+
+#footer
+{
+	font-size: .9em;
+	clear: both;
+	width: 960px;
+	color: #fff;
+	background: #352E20;
+	text-align: center;
+	padding: 1px 0;
+}
+
