@@ -9,7 +9,7 @@ html, body
 	margin: 0;
 	padding: 0;
 	color: #000;
-	background: #768480;
+	background: transparent url("backdrop.jpg") repeat;
 	text-align: center;
 	font-family: "trebuchet MS", verdana, sans-serif;
 	font-size: 1em;
@@ -22,7 +22,7 @@ div.wrapper
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
-	background: #5C7272;
+	background: transparent;
 }
 
 /*--------------------------------------------- BANNER FORMATTING --------------------------------------------- */
