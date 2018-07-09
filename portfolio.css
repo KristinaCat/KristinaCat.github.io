@@ -166,7 +166,8 @@ div.section
 { 
 	float: right;
 	width: 980px;
-	background: #f4f4f4;
+	background: #f4f4f4 0 50%;
+	opacity: 0.5;
 	padding: 10px;
 }
 
