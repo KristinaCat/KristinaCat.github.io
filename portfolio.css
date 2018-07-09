@@ -166,7 +166,7 @@ div.section
 { 
 	float: right;
 	width: 980px;
-	background: transparent;
+	background: #f4f4f4;
 	padding: 10px;
 }
 
@@ -191,7 +191,7 @@ div.section h2
 	text-shadow: 1px 1px 1px #fff;
 	filter: dropshadow(color=#fff, offx=1, offy=1);  
 	font-family: georgia, "Book Antiqua", serif;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	padding: 5px 60px;
 	line-height: 120%;
 }
