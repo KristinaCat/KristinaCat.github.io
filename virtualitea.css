@@ -6,7 +6,7 @@ body
    font-size: 1em;
    color: #000;
    background: #C4C3C2;
-   margin: 50px;
+   margin: 150px;
 }
 
 /* classes */
@@ -42,20 +42,6 @@ body
    font-weight: bold;
 }
 
-.box 
-{ 
-   color: #083849;
-   background: #C4C3C2; 
-   width: 1000px; 
-   padding: 1px;
-   border-color: #3A211A; 
-   border-style: inset; 
-   border-width: 1px;
-   margin: 0 auto;
-   margin-top: 20px;
-   margin-bottom: 40px;
-   text-align: center;
-} 
 
 /* link styles */
 
